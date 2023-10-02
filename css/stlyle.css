@@ -7,7 +7,7 @@
 /* pt sans font family */
 body {
     font-family: 'PT Sans', sans-serif;
-
+    font-size: 1rem;
 }
 
 .logo-list {
@@ -81,7 +81,9 @@ body {
 /* media query for nav bar */
 
 /* hero section */
+
 /* first card */
+
 .hero-section {
     width: 100%;
     padding: 40px;
@@ -101,8 +103,8 @@ body {
     background-color: #b5ddff;
     border:white 2px solid;
     border-radius: 24px;
-
 }
+
 
 .top-hero {
     min-height: 300px;
@@ -112,20 +114,24 @@ body {
     color: #0084fd;
 }
 .top-hero p{
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
     
 }
 .top-hero a{
+    display: inline-block;
+    width: 70%;
+    text-align: center;
     text-decoration: none;
     color: white;
     font-size: 1rem;
     font-weight: 200;
     background-color: #0084fd;
     padding: 7px;
-    margin-left: 20;
+    margin-left: 20px;
     border-radius: 25px;
 }
+
 
 .bottom-hero img {
     width: 22rem;
@@ -146,7 +152,7 @@ body {
     text-align: center;
 }
 .col-hero p{
-    text-align: center;
+    line-height: 2;
 }
 
 @media screen and (min-width: 768px) {
@@ -176,18 +182,27 @@ body {
         text-align: left;
     }
 
-    .top-hero h3,p,a {
+    /* .top-hero h3,p,a {
         margin: 10px;
-    }
+    } */
     .font-awesome{
-        width: 17%;
+        width:25%;
         padding-top: 30px;
+        border: 2px solid red;
     }
     .col-hero h3{
-        padding: 40px;
+        font-size: 20px;
+       
     }
     .col-hero p{
-       padding: 20px;
+       font-size: 13px;
+       line-height: 1.2;
+    }
+  .top-hero a{
+        display: inline-block;
+        width: 80%;
+        text-align: center;
+          
     }
 }
 
@@ -202,7 +217,25 @@ body {
         width: 22rem;
         padding-left: 100px;
     }
+   
+    .top-hero a{
+        display: inline-block;
+        width: 60%;
+        text-align: center;
+          
+    }
+    .col-hero h3,p{
+        font-size: 20px;
+    }
+    .font-awesome{
+        width:25%;
+        padding-top: 30px;
+        border: 2px solid red;
+    }
 }
+
+
+/* main */
 
 .strategic {
     background-color: aquamarine;
