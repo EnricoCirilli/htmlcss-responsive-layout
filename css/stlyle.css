@@ -109,3 +109,33 @@ body {
 @media screen and (min-width: 992px){
     
 }
+.strategic{
+    background-color: aquamarine;
+}
+.row-planning{
+    background-color: violet;
+    height: 1000px;
+    width: 63%;
+    margin: 0 auto;
+}
+.col-planning{
+    margin: 0 auto;
+    width:100%;
+    min-height: 500px;
+    border:red solid 2px;
+}
+@media screen and (min-width: 768px){
+    .row-planning{
+       width: 70%;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .row-planning{
+        display: flex;
+        justify-content: center;
+    }
+    .col-planning{
+        width: 50%;
+    }
+}
