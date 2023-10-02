@@ -6,6 +6,7 @@
 /* pt sans font family */
 body {
     font-family: 'PT Sans', sans-serif;
+   
 }
 
 .logo-list {
@@ -13,37 +14,60 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 2rem;
-}
-
-.logo {
-    border: 3px solid red;
-
+    padding:20px;
+  
 }
 
 .btn-hamburger {
-    border: 3px solid red;
-
+    border: 1px solid #0084fd;
+    background-color: #0084fd;
+    color: white;
 }
 
 .list-nav {
-    border: 3px solid red;
-    width: 300px;
+    width: 0 auto;
     display: none;
     list-style-type: none;
 }
-.list-nav ul{
+.list-nav ul li{
+    float: right;
+    display: inline;
     list-style-type: none;
+    padding: 1.5rem;
+    /* display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    margin: 10px; */
 }
+.list-nav a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+#get-started{
+    padding: 10px;
+    border-radius: 25px;
+    color: black;
+    background-color: white;
+}
+/* media query for nav bar */
 @media screen and (min-width: 768px) {
     .logo img{
         height: 60px;}
 }
 @media screen and (min-width: 992px) {
-    .list-nav{
-        display: block;
+    .logo-list{
+        justify-content: space-around;
     }
+    .list-nav {
+        display: inline;
+        
+    }
+   
     .btn-hamburger {
         display: none;
     }
 }
+/* media query for nav bar */
