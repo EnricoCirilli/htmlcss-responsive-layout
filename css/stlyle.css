@@ -200,7 +200,6 @@ body {
         min-height: 100px;
         padding-top: 1.8rem;
         padding-left: 1.3rem;
-        border: 2px red solid;
     }
     .col-hero h3{
         font-size: 1.25rem;
@@ -382,7 +381,6 @@ body {
     display: block;
     width: 100%;
     text-align: center;
-    border: red 2px solid;
 }
 
 .col-committed {
@@ -393,9 +391,6 @@ body {
     border-radius: 25px;
     text-align: center;
     padding: 20px;
-    border: red 2px solid;
-   
-    
 }
 .col-committed img{
     height: 100px;
@@ -435,21 +430,23 @@ span{
 
 
 /* benefits section */
-.row-benefits{
+.benefits{
     background-color: #9792e4;
+}
+.row-benefits{
+    
     min-height: 50rem;
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    gap: .5rem;
 }
 .col-benefits{
     background-color: white;
     width: 70%;
     min-height: 10rem;
     margin: 0 auto;
-   border: 2px solid red;
-   border-radius: 25px;
-   padding: 30px;
+    border-radius: 25px;
+    padding: 30px;
 }
 .title-benefits{
     width: 80%;
@@ -458,7 +455,6 @@ span{
     padding: 1.5rem;
     font-size: 1.5rem;
     text-align: center;
-    border: 2px red solid;
 }
 .number{
     font-size: 3rem;
@@ -496,11 +492,12 @@ h4{
 @media screen and (min-width: 992px){
     .row-benefits{
         display: flex;
-        width: 100%;
+        width: 60%;
+        margin: 0 auto;
  
      }
      .col-benefits{
-       width: 30%;
+       width: calc(100% / 3 - .7rem);
        
  
      }
