@@ -425,3 +425,52 @@ span{
         
     }
 }
+
+
+/* benefits section */
+.row-benefits{
+    background-color: #9792e4;
+    min-height: 50rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.col-benefits{
+    background-color: white;
+    width: 70%;
+    min-height: 10rem;
+    margin: 0 auto;
+   border: 2px solid red;
+   border-radius: 25px;
+   padding: 30px;
+}
+.title-benefits{
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    border: 2px red solid;
+}
+.number{
+    font-size: 3rem;
+    color: #9792e4;
+}
+h4{
+    color: #9792e4;
+    margin-top: 1rem;
+}
+.description{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.more a {
+    background-color: #9792e4;
+    padding: .5rem;
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+    text-decoration: none;
+    border-radius: 1.5rem;
+    color: white;
+}
