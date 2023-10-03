@@ -57,11 +57,11 @@ body {
 }
 
 /* media query for nav bar */
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     .logo img {
         min-height: 3.75rem;
     }
-}
+} */
 
 @media screen and (min-width: 992px) {
     .logo-list {
@@ -78,37 +78,42 @@ body {
     }
 }
 
-/* media query for nav bar */
+/* /media query for nav bar fine */
 
 /* hero section */
 
 /* first card */
 
 .hero-section {
-    width: 100%;
+    width: 96%;
+    margin: 0 auto;
     padding: 2.5rem;
     background-color:white;
-
+    display: flex;
+    gap: 10%;
 }
 
 .row-hero {
-    /* border: red 2px solid;
-    width: 70%; */
+    border: red 2px solid;
+    width: 90%;
     margin: 0 auto;
 }
+    
 
 .col-hero {
     width: 100%;
     min-height: 18rem;
     background-color: #b5ddff;
-    border:white 2px solid;
+    border:white 4px solid;
     border-radius: 24px;
+    
+    gap: 10px;
 }
 
 
 .top-hero {
     min-height: 18.75rem;
-    /* margin: 2.5rem; */
+    margin: 2.5rem;
 }
 .top-hero h3{
     color: #0084fd;
@@ -237,37 +242,66 @@ body {
 
 /* main */
 
-.strategic {
+/*  debugging .strategic {
     background-color: aquamarine;
-}
+} */
 
 .row-planning {
-    background-color: violet;
-    height: 62.5rem;
-    width: 80%;
+    background-color: #9792e4;
+    height: 68rem;
+    width: 100%;
     margin: 0 auto;
-    border-radius: 25px;
+    border: 2px red solid;
+  
 }
-
+.col-planning-left {
+    margin: 0 auto;
+    width: 80%;
+    min-height: 31.25rem;
+    border: 2px red solid;
+    color: white;
+}
+.col-planning-left img{
+    width: 100%;
+}
 .col-planning {
     margin: 0 auto;
+    width: 80%;
+    min-height: 10rem;
+    background-color: white;
+    border-radius: 1.5rem;
+}
+.col-planning img{
     width: 100%;
-    min-height: 31.25rem;
 }
 
 @media screen and (min-width: 768px) {
     .row-planning {
         width: 80%;
+       height: 88rem;
+    }
+    .col-planning-left{
+        width: 90%;
+    }
+    .col-planning{
+        width: 90%;
     }
 }
 
 @media screen and (min-width: 992px) {
     .row-planning {
+        width: 100%;
         display: flex;
         justify-content: center;
+        align-items: center;
     }
 
     .col-planning {
+        width: 50%;
+        height: 1rem;
+       
+    }
+    .col-planning,.col-planning-left img{
         width: 50%;
     }
 }
@@ -275,7 +309,7 @@ body {
 .row-committed {
     background-color: blanchedalmond;
     width: 80%;
-    min-height: 62.5rem;
+    min-height: 22.5rem;
     margin: 0 auto;
 }
 
