@@ -59,7 +59,7 @@ body {
 /* media query for nav bar */
 @media screen and (min-width: 768px) {
     .logo img {
-        height: 60px;
+        min-height: 3.75rem;
     }
 }
 
@@ -86,7 +86,7 @@ body {
 
 .hero-section {
     width: 100%;
-    padding: 40px;
+    padding: 2.5rem;
     background-color:white;
 
 }
@@ -107,8 +107,8 @@ body {
 
 
 .top-hero {
-    min-height: 300px;
-    margin: 40px;
+    min-height: 18.75rem;
+    /* margin: 2.5rem; */
 }
 .top-hero h3{
     color: #0084fd;
@@ -116,6 +116,8 @@ body {
 .top-hero p{
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
+    padding-left: 2rem;
+    
     
 }
 .top-hero a{
@@ -127,9 +129,9 @@ body {
     font-size: 1rem;
     font-weight: 200;
     background-color: #0084fd;
-    padding: 7px;
-    margin-left: 20px;
-    border-radius: 25px;
+    padding: 0.4rem;
+    margin-left: 1.25rem;
+    border-radius: 1.5rem;
 }
 
 
@@ -142,7 +144,7 @@ body {
 /* second card */
 
 .font-awesome{
-    font-size: 100px;
+    font-size: 6.25rem;
     width: 30%;
     margin: 0 auto;
     color: #0084fd;
@@ -178,7 +180,7 @@ body {
     }
 
     .top-hero {
-        padding: 40px;
+        padding: 2.5rem;
         text-align: left;
     }
 
@@ -187,15 +189,14 @@ body {
     } */
     .font-awesome{
         width:25%;
-        padding-top: 30px;
-        border: 2px solid red;
+        padding-top: 1.8rem;
     }
     .col-hero h3{
-        font-size: 20px;
+        font-size: 1.25rem;
        
     }
     .col-hero p{
-       font-size: 13px;
+       font-size: 0.8rem;
        line-height: 1.2;
     }
   .top-hero a{
@@ -215,7 +216,7 @@ body {
 
     .bottom-hero img {
         width: 22rem;
-        padding-left: 100px;
+        padding-left: 6.25rem;
     }
    
     .top-hero a{
@@ -225,12 +226,11 @@ body {
           
     }
     .col-hero h3,p{
-        font-size: 20px;
+        font-size: 1.25rem;
     }
     .font-awesome{
         width:25%;
-        padding-top: 30px;
-        border: 2px solid red;
+        padding-top: 1.8rem;
     }
 }
 
@@ -243,7 +243,7 @@ body {
 
 .row-planning {
     background-color: violet;
-    height: 1000px;
+    height: 62.5rem;
     width: 80%;
     margin: 0 auto;
     border-radius: 25px;
@@ -252,7 +252,7 @@ body {
 .col-planning {
     margin: 0 auto;
     width: 100%;
-    min-height: 500px;
+    min-height: 31.25rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -275,14 +275,14 @@ body {
 .row-committed {
     background-color: blanchedalmond;
     width: 80%;
-    min-height: 1000px;
+    min-height: 62.5rem;
     margin: 0 auto;
 }
 
 .col-committed {
     margin: 0 auto;
     width: 100%;
-    min-height: 200px;
+    min-height: 12.5rem;
     background-color: rgb(223, 217, 39);
     border-radius: 25px;
 }
