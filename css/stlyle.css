@@ -539,5 +539,14 @@ h4{
 
 }
 @media screen and (min-width: 992px){
-    
+
+}
+
+.footer{
+    background-color: black;
+    min-height: 30rem;
+}
+.footer p{
+    color: white;
+    text-align: center;
 }
