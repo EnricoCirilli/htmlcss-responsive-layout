@@ -502,3 +502,15 @@ h4{
  
      }
 }
+/* working section */
+.col-working-left{
+    border: 3px solid red;
+}
+.col-working-right{
+    border: 3px solid red;
+}
+@media screen and (min-width: 768px){
+    .row-working{
+        display: flex;
+    }
+}
